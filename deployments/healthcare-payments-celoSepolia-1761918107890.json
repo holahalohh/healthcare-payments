@@ -1,0 +1,27 @@
+{
+  "network": "celoSepolia",
+  "chainId": "11142220",
+  "contractAddress": "0x2722376053C44a349A0F79AeEF051B4Ec3EffDFA",
+  "contractName": "HealthcarePayments",
+  "deployer": "0x83B737B8D1FBA6c9F88D7B6DdC49383C10A4D45F",
+  "deploymentDate": "2025-10-31T13:41:47.718Z",
+  "transactionHash": "0x0a0ad32752bfc2a462570c862b60a751fd9f422c7b0617573dafc292bb11a757",
+  "gasUsed": "4976120",
+  "owner": "0x83B737B8D1FBA6c9F88D7B6DdC49383C10A4D45F",
+  "platformFee": "200",
+  "blockExplorerUrl": "https://sepolia.celoscan.io/address/0x2722376053C44a349A0F79AeEF051B4Ec3EffDFA",
+  "features": {
+    "poolManagement": true,
+    "memberRegistration": true,
+    "providerVerification": true,
+    "claimsProcessing": true,
+    "platformFees": true,
+    "emergencyFund": true
+  },
+  "configuration": {
+    "minContribution": "0.01 CELO",
+    "maxClaimPercentage": "80%",
+    "platformFeePercent": "2%",
+    "maxPlatformFee": "5%"
+  }
+}

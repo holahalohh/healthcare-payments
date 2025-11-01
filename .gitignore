@@ -1,0 +1,43 @@
+# Ignore node modules
+node_modules/
+
+# Ignore environment variables
+.env
+.env.local
+.env.*.local
+
+# Ignore build artifacts
+artifacts/
+cache/
+typechain/
+typechain-types/
+
+# Ignore coverage reports
+coverage/
+coverage.json
+.coverage_artifacts/
+.coverage_cache/
+.coverage_contracts/
+
+# Ignore deployment info (optional - uncomment if you want to keep private)
+# deployments/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Hardhat
+.openzeppelin/
